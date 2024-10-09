@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "big-data-spark"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme Canfield <guilherme.canfield87@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyspark = "3.5.1"
+findspark = "^2.0.1"
+seaborn = "^0.13.2"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+polars = "^1.9.0"
+ipykernel = "^6.29.5"
+setuptools = "^75.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
